@@ -1,0 +1,18 @@
+.sectionContent {
+    border: 1px solid red;
+}
+scroll-container {
+    block-size: 100px;
+    display: block;
+    border: 1px solid blue;
+    overflow: auto;
+    scroll-behavior: smooth;
+
+}
+
+scroll-page {
+    margin: 0;
+    border: 1px solid green;
+    width: 100%;
+    display:inline-block;
+}
