@@ -1,18 +1,24 @@
 .sectionContent {
     border: 1px solid red;
+    text-align: center;
 }
 scroll-container {
-    block-size: 100px;
+    block-size: 600px;
+    inline-size: 80%;
     display: block;
     border: 1px solid blue;
     overflow: auto;
     scroll-behavior: smooth;
+    white-space: nowrap;
+    margin: auto;
+    font-size: 0;
 
 }
 
-scroll-page {
+scroll-page img{
     margin: 0;
     border: 1px solid green;
     width: 100%;
     display:inline-block;
+    height: 100%;
 }
