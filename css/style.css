@@ -1,12 +1,12 @@
 .sectionContent {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
 }
 scroll-container {
-    block-size: 600px;
-    inline-size: 80%;
+    /* block-size: 600px; */
+    inline-size: 75%;
     display: block;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     overflow: auto;
     scroll-behavior: smooth;
     white-space: nowrap;
@@ -17,8 +17,20 @@ scroll-container {
 
 scroll-page img{
     margin: 0;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     display:inline-block;
     height: 100%;
+}
+
+.bullets {
+    margin-block-start: 10px;
+}
+
+.bullets a {
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    background: green;
+    border-radius: 50%;
 }
